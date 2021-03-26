@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./images/dawn-3358468_1920.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heading {
+  text-align: center;
+  margin-top: 5%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+.container {
+  margin-top: 5%;
+  background: #fff;
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+.left,
+.right {
+  width: 50%;
+  height: 400px;
+}
+.left {
+  background-image: url("./images/cup-2315563_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .right .formbox {
+  margin-top: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .right .formbox > div {
+  margin-bottom: 10%;
+}
+.container .right .formbox p {
+  font-weight: bold;
+  color: #a6af13;
+}
+.container .right .formbox input[type="text"],
+.container .right .formbox input[type="password"] {
+  border-style: none;
+  border-bottom: 2px solid #a6af13;
+  outline: none;
+}
+.container .right .formbox input[type="text"]:focus,
+.container .right .formbox input[type="password"]:focus {
+  border-bottom: 2px solid #262626;
+  outline: none;
+}
+.container .right .formbox button {
+  width: 180px;
+  height: 25px;
+  background: lightslategray;
+  color: white;
+  cursor: pointer;
+}
+.container .right .formbox button:hover {
+  background: lightgreen;
+  color: black;
+}
